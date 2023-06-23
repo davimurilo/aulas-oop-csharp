@@ -1,6 +1,6 @@
 # aulas-oop-csharp
 
-Esse repositório têm objetivo para dispinibilizar, os códigos de em C#, voltado para programação orientada a objeto.
+Esse repositório têm objetivo para dispinibilizar, os códigos em C#, voltado para programação orientada a objeto.
 
 Os códigos abordam os seguintes tópicos:
 
