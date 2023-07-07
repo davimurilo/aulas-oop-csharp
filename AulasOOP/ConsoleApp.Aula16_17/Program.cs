@@ -14,7 +14,7 @@ Telefone = "(11) 1111-1111",
 WhatsApp = "(11) 2222 -222"
 };
 
-contato.Nome = contato.Nome.Maiusculo();
+contato.Nome = contato.Nome?.Maiusculo();
 contato.RedeSocial = contato.RedeSocial?.ToUpper();
 contato.WhatsApp = contato.WhatsApp.RemoverEspaco();
 contato.ExibirContatoCompletoConsole();
