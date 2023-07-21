@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebOOPExemplo", "WebOOPExem
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContatoOOPExemplo", "ContatoOOPExemplo\ContatoOOPExemplo.csproj", "{93948C4D-EFCA-45AA-BFB4-8099FFBF7325}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.Aula18_19", "ConsoleApp.Aula18_19\ConsoleApp.Aula18_19.csproj", "{051DB578-35EB-42A4-BDA7-C0411E7D1DD3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp.Aula18_19", "ConsoleApp.Aula18_19\ConsoleApp.Aula18_19.csproj", "{051DB578-35EB-42A4-BDA7-C0411E7D1DD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.Aula20_21", "ConsoleApp.Aula20_21\ConsoleApp.Aula20_21.csproj", "{19D3EBEA-C356-480A-86DF-7140D5266F3B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{051DB578-35EB-42A4-BDA7-C0411E7D1DD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{051DB578-35EB-42A4-BDA7-C0411E7D1DD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{051DB578-35EB-42A4-BDA7-C0411E7D1DD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19D3EBEA-C356-480A-86DF-7140D5266F3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19D3EBEA-C356-480A-86DF-7140D5266F3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19D3EBEA-C356-480A-86DF-7140D5266F3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19D3EBEA-C356-480A-86DF-7140D5266F3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
