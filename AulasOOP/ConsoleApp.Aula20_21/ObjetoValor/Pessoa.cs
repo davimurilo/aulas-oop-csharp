@@ -35,7 +35,7 @@ namespace ConsoleApp.Aula20_21.ObjetoValor {
 
         private void ValidarDocumento(string valor) {
 
-            if (valor.Length < 11) throw new DocumentoException("Documento Inválido","Fornecedor");
+            if (valor.Length < 11) throw new DocumentoException("Documento Inválido");
         }
 
     }

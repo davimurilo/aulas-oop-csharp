@@ -1,0 +1,74 @@
+﻿@page
+@model WebEstudoDeCasoComClasse.Pages.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+<p>
+    <form method="post">
+        <div class="row">
+            <div class="col-6">
+                <label> Nome </label> <input asp-for="Nome" class="form-control" />
+            </div>
+            <div class="col-2">
+                <br />
+                <button class="btn btn-primary">Filtrar</button>
+            </div>
+        </div>
+    </form>
+</p>
+
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                NomeCliente
+            </th>
+            <th>
+                RG_Cliente
+            </th>
+            <th>
+                CPF_Cliente
+            </th>
+            <th>
+                SexoCliente
+            </th>
+            <th>
+                DataInclusao
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Cliente) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NomeCliente)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RG_Cliente)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CPF_Cliente)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SexoCliente)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataInclusao)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.IdCliente">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.IdCliente">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.IdCliente">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

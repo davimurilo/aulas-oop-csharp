@@ -50,7 +50,13 @@ try {
 
 }catch (DocumentoException ex) {
 
-    Console.WriteLine($"{ ex.Message} {ex.Origem}");
+    Console.WriteLine($"{ex.Message } ");
+    Console.WriteLine($"{ex.Source} ");
+    Console.WriteLine($"{ex.StackTrace} ");
+    Console.WriteLine($"{ex.Data} ");
+    Console.WriteLine($"{ex.InnerException} ");
+    Console.WriteLine($"{ex.HelpLink} ");
+
 }
 
 

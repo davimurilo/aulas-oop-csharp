@@ -7,12 +7,8 @@ using System.Threading.Tasks;
 namespace ConsoleApp.Aula20_21.Excecao {
     public class DocumentoException  : Exception {
 
-
-        public string Origem { get; set; }
- 
-
-        public DocumentoException(string mensagem,string origem):base(mensagem) {
-            Origem = origem;
+        public DocumentoException(string mensagem):base(mensagem) {
+            
         }
     }
 }
