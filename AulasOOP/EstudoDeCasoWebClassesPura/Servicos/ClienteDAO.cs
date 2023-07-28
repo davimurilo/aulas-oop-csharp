@@ -2,6 +2,7 @@
 using EstudoDeCasoWebClassesPura.Entidades;
 using EstudoDeCasoWebClassesPura.Interfaces;
 using Microsoft.EntityFrameworkCore;
+using System.Linq.Expressions;
 
 namespace EstudoDeCasoWebClassesPura.Servicos {
     public class ClienteDAO : IClienteDAO {
@@ -16,6 +17,10 @@ namespace EstudoDeCasoWebClassesPura.Servicos {
 
             contextoGeral.Cliente.Update(cliente);
             await contextoGeral.SaveChangesAsync();
+        }
+
+        public async Task<IEnumerable<Cliente>> CarregarPorFiltro(Expression<Func<Cliente, bool>> filtro) {
+            return await contextoGeral.Cliente.Where(filtro).ToListAsync();
         }
 
         public async Task<Cliente> CarregarPorId(int id) {

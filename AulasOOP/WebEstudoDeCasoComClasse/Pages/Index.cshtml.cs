@@ -17,6 +17,7 @@ namespace WebEstudoDeCasoComClasse.Pages {
         [BindProperty]
         public string Nome { get; set; }
 
+        
         public IEnumerable<Cliente> Cliente { get;set; } = default!;
 
         public async Task OnGetAsync()
@@ -24,6 +25,14 @@ namespace WebEstudoDeCasoComClasse.Pages {
 
             Cliente = await _clienteDAO.ListarTodos();
             
+        }
+
+        public async  Task<IActionResult> OnPostAsync() {
+
+            Cliente = await _clienteDAO.CarregarPorFiltro(n => n.NomeCliente!.Contains(Nome));
+
+            return Page();
+
         }
     }
 }
