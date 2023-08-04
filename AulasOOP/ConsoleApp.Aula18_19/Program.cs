@@ -7,7 +7,6 @@ using ConsoleApp.Aula18_19.Structs;
 do
 {
     Console.Clear();
-
     Console.WriteLine("Escolha a opção abaixo:");
     Console.WriteLine("(1) Salvar ");
     Console.WriteLine("(2) Listar ");

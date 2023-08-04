@@ -17,11 +17,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp.Aula18_19", "Con
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp.Aula20_21", "ConsoleApp.Aula20_21\ConsoleApp.Aula20_21.csproj", "{19D3EBEA-C356-480A-86DF-7140D5266F3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebEstudoDeCasoComClasse", "WebEstudoDeCasoComClasse\WebEstudoDeCasoComClasse.csproj", "{8C6D261D-BEC8-496F-94A3-1E1169C589A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebEstudoDeCasoComClasse", "WebEstudoDeCasoComClasse\WebEstudoDeCasoComClasse.csproj", "{8C6D261D-BEC8-496F-94A3-1E1169C589A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstudoDeCasoWebClassesPura", "EstudoDeCasoWebClassesPura\EstudoDeCasoWebClassesPura.csproj", "{312FF33D-EE0C-4075-9EB6-C7E427B4C177}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstudoDeCasoWebClassesPura", "EstudoDeCasoWebClassesPura\EstudoDeCasoWebClassesPura.csproj", "{312FF33D-EE0C-4075-9EB6-C7E427B4C177}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstudoCasoAPIComClasse", "EstudoCasoAPIComClasse\EstudoCasoAPIComClasse.csproj", "{ECDE254E-B203-4EF4-B622-093673470599}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstudoCasoAPIComClasse", "EstudoCasoAPIComClasse\EstudoCasoAPIComClasse.csproj", "{ECDE254E-B203-4EF4-B622-093673470599}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.Aula22_23", "ConsoleApp.Aula22_23\ConsoleApp.Aula22_23.csproj", "{BA78EF8E-2A9E-4767-91A9-E8DF2AF4D562}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{ECDE254E-B203-4EF4-B622-093673470599}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ECDE254E-B203-4EF4-B622-093673470599}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ECDE254E-B203-4EF4-B622-093673470599}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA78EF8E-2A9E-4767-91A9-E8DF2AF4D562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA78EF8E-2A9E-4767-91A9-E8DF2AF4D562}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA78EF8E-2A9E-4767-91A9-E8DF2AF4D562}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA78EF8E-2A9E-4767-91A9-E8DF2AF4D562}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
